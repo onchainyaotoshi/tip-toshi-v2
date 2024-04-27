@@ -1,0 +1,36 @@
+{
+  "name": "tip-toshi",
+  "private": true,
+  "type": "module",
+  "author": "yaotoshi",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "dotenv -e .env -- frog dev --host",
+    "start": "dotenv -e .env -- nodemon -e ts,tsx --exec tsx src/index.tsx",
+    "start:live": "tsx src/index.tsx"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.17",
+    "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.3.0",
+    "nodemon": "^3.1.0",
+    "tsx": "^3.12.2"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.11.0",
+    "@neynar/nodejs-sdk": "^1.19.3",
+    "@zerodev/ecdsa-validator": "^5.2.3",
+    "@zerodev/sdk": "^5.2.9",
+    "axios": "^1.6.8",
+    "frog": "^0.8.6",
+    "hono": "^4.2.7",
+    "knex": "^3.1.0",
+    "lodash": "^4.17.21",
+    "moralis": "^2.26.1",
+    "permissionless": "^0.1.20",
+    "pg": "^8.11.5"
+  }
+}
