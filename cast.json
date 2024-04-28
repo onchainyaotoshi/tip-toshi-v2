@@ -1,0 +1,32 @@
+{
+  cast: {
+    object: 'cast',
+    hash: '0xd5c8f6657e9bc51935a2ca661c96309f71dc1875',
+    thread_hash: '0xd5c8f6657e9bc51935a2ca661c96309f71dc1875',
+    parent_hash: null,
+    parent_url: null,
+    root_parent_url: null,
+    parent_author: { fid: null },
+    author: {
+      object: 'user',
+      fid: 224707,
+      custody_address: '0x4576bc75d1e15d00fa81926f5d285854fa8da9bd',
+      username: 'firman',
+      display_name: 'Firman',
+      pfp_url: 'https://i.imgur.com/rv35dtz.jpg',
+      profile: [Object],
+      follower_count: 31,
+      following_count: 37,
+      verifications: [],
+      verified_addresses: [Object],
+      active_status: 'inactive',
+      power_badge: false
+    },
+    text: 'https://bc20ba6d-6759-4d3c-be4e-112ca86278a0-00-v4g1zcc6vx6u.sisko.replit.dev/',
+    timestamp: '2024-04-27T23:39:59.000Z',
+    embeds: [ [Object] ],
+    reactions: { likes_count: 0, recasts_count: 0, likes: [], recasts: [] },
+    replies: { count: 0 },
+    mentioned_profiles: []
+  }
+}

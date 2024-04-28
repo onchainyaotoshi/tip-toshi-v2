@@ -90,13 +90,13 @@ export const getBalanceOf = async (fid: number) => {
   return Number(formatUnits(balance,18));
 };
 
-export const getAmountTip = async()=>{
+export const getAmountTip = async(amount: number)=>{
   const response = await Moralis.EvmApi.token.getTokenPrice({
     "chain": "0x2105",
     "address": CA,
     "exchange": "sushiswap"
   });
-  const max = Math.ceil(MAX_TIP/response.raw.usdPrice);
+  const max = Math.ceil(amount/response.raw.usdPrice);
 
   if(isNaN(max)){
     throw new Error("There was a error with code 8");

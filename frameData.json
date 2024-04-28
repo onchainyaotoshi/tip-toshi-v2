@@ -1,0 +1,10 @@
+{
+  fid: 224707,
+  url: 'https://bc20ba6d-6759-4d3c-be4e-112ca86278a0-00-v4g1zcc6vx6u.sisko.replit.dev/',
+  messageHash: '0xb9daeb5082135215422ddd632f16db3ff3ca6858',
+  timestamp: 1714262067000,
+  network: 1,
+  buttonIndex: 1,
+  address: '0x05545b5Ff76d9E27CE03a8C689ad1AdCe070B290',
+  castId: { fid: 224707, hash: '0xd5c8f6657e9bc51935a2ca661c96309f71dc1875' }
+}

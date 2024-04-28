@@ -18,7 +18,7 @@ export default (c: FrameContext, content: string): JSX.Element => (<div
   <div
     style={{
       color: 'white',
-      fontSize: 48,
+      fontSize: 36,
       fontStyle: 'normal',
       letterSpacing: '-0.025em',
       lineHeight: 1.4,
